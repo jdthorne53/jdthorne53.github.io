@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+/* Introduction Section */
+.intro-section {
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* ensures the section takes up the entire width */
+    padding: 20px;
+    background-color: #eef3f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.intro-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a4d69;  /* Dark blue shade for the title */
+}
+
+.intro-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.intro-section ul {
+    margin-left: 40px;
+}
+
+.intro-section li {
+    margin-bottom: 10px;
+}
+
+.intro-section em {
+    font-style: italic;
+    color: #da7c0c;  /* Orange shade for emphasis */
+}
+
+
+/* Importance Section */
+.importance-section {
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* ensures the section takes up the entire width */
+    padding: 20px;
+    background-color: #eef3f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.importance-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2a4d69;  /* Dark blue shade for the title */
+}
+
+.importance-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.importance-section ul {
+    margin-left: 40px;
+}
+
+.importance-section li {
+    margin-bottom: 10px;
+}
+
+.importance-section em {
+    font-style: italic;
+    color: #da7c0c;  /* Orange shade for emphasis */
+}
+
+/* Articles */
+article {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+article h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+article h3 a {
+    text-decoration: none;
+    color: #0077CC; /* A shade of blue for links */
+}
+
+article h3 a:hover {
+    text-decoration: underline;
+}
+
+.author {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #2a4d69;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+form {
+    margin: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077CC; /* Button color */
+    color: white; /* Text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055a3; /* Darker shade for hover effect */
+}
