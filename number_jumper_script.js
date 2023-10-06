@@ -47,7 +47,18 @@ function checkNumber() {
             generateSequence();
         }
     }
+    let inputBox = document.getElementById('numberJumperInput');
+    inputBox.value = '';
+    inputBox.focus();
 }
+
+// Event listener for the Enter key
+document.getElementById('numberJumperInput').addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {  // 13 is the key code for Enter
+        checkNumber();
+    }
+});
+
 
 function resetGame() {
     score = 0;

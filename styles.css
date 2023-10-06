@@ -451,3 +451,47 @@ p {
     font-size: 20px;
     color: #004466;
 }
+
+.games-section {
+    justify-content: center;
+    align-items: center;
+    width: 95%; /* ensures the section takes up the entire width */
+    padding: 20px;
+    background-color: #eef3f8;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.games-section a {
+    text-decoration: none;
+    color: #0077CC; /* A shade of blue for links */
+}
+
+.game-tile {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-decoration: none;
+    color: inherit; /* Ensures the text color remains consistent */
+}
+
+.game-tile:hover {
+    transform: scale(1.05);
+    text-decoration: none; /* Removes any underline on hover */
+}
+
+.game-tile h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.game-description {
+    font-size: 1em;
+    color: #666;
+}
+

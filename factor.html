@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratio Riddle Race</title>
+    <title>Prime Detective</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -30,13 +30,14 @@
     </header>
 
     <div class="equation-explorer-container">
-        <h1 class="number-jumper-title">Ratio Riddle Race</h1>
-        <p class="riddle">Riddle: If there are 5 apples and 10 bananas, what's the ratio of apples to bananas?</p>
-        <input type="text" id="answer" placeholder="Enter ratio (e.g., 1:2)">
-        <button onclick="checkAnswer()">Submit</button>
-        <p class="position">Your Position: <span id="position">0</span>/10</p>
-        <button onclick="switchToHard()">Switch to Hard Mode</button>
-    </div>
-    <script src="ratio_script.js"></script>
+        <h1 class="equation-explorer-title">Factor Finder</h1>
+        <p class="equation-explorer-number" id="factorFinderNumber">12</p>
+        <input type="text" id="factorFinderInput" placeholder="Enter factors separated by commas (e.g. for 6: 1,2,3,6)">
+        <button class="equation-explorer-button" onclick="checkFactors()">Submit</button>
+        <p class="equation-explorer-score">Score: <span id="factorFinderScore">0</span></p>
+        <p class="equation-explorer-lives">Lives: <span id="factorFinderLives">3</span></p>
+    </div>    
+
+    <script src="factor_script.js"></script>
 </body>
 </html>
