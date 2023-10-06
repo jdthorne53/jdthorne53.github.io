@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fraction Frenzy</title>
+    <title>Number Jumper</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,19 +26,15 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-
-    <div class="equation-explorer-container">
-        <h1 class="number-jumper-title">Fraction Frenzy</h1>
-        <p class="main-fraction" id="mainFraction">1/2</p>
-        <div class="options">
-            <button onclick="checkFraction('1/3')">1/3</button>
-            <button onclick="checkFraction('2/4')">2/4</button>
-            <button onclick="checkFraction('3/5')">3/5</button>
-            <button onclick="checkFraction('1/4')">1/4</button>
-        </div>
-        <p>Score: <span id="score">0</span></p>
-        <p>Lives: <span id="lives">3</span></p>
-    </div>
-    <script src="fraction_script.js"></script>
+    
+    <div class="number-jumper-container">
+        <h1 class="number-jumper-title">Number Jumper</h1>
+        <p class="number-jumper-sequence" id="numberJumperSequence">2, 4, ?, 8, 10</p>
+        <input type="number" id="numberJumperInput" placeholder="Enter missing number">
+        <button class="number-jumper-button" onclick="checkNumber()">Submit</button>
+        <p class="number-jumper-score">Score: <span id="numberJumperScore">0</span></p>
+        <p class="number-jumper-lives">Lives: <span id="numberJumperLives">3</span></p>
+    </div>    
+    <script src="number_jumper_script.js"></script>
 </body>
 </html>

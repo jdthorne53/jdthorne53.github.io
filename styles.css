@@ -298,3 +298,156 @@ h4 a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.fraction-game-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.main-fraction {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.options button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.prime-time-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid #333;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.prime-time-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.prime-time-number {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #0077cc;
+}
+
+.prime-time-options .prime-time-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.prime-time-options .prime-time-button:hover {
+    background-color: #0055aa;
+}
+
+.prime-time-score, .prime-time-lives {
+    font-size: 20px;
+    color: #333;
+}
+
+.number-jumper-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid #0099cc;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border-radius: 10px;
+}
+
+.number-jumper-title {
+    font-size: 28px;
+    color: #006699;
+    margin-bottom: 20px;
+}
+
+.number-jumper-sequence {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #004466;
+}
+
+.number-jumper-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.number-jumper-button:hover {
+    background-color: #0077aa;
+}
+
+.number-jumper-score, .number-jumper-lives {
+    font-size: 20px;
+    color: #004466;
+}
+
+.equation-explorer-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid #0099cc;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border-radius: 10px;
+}
+
+.equation-explorer-title {
+    font-size: 28px;
+    color: #006699;
+    margin-bottom: 20px;
+}
+
+.equation-explorer-equation {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #004466;
+}
+
+.equation-explorer-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.equation-explorer-button:hover {
+    background-color: #0077aa;
+}
+
+.equation-explorer-score, .equation-explorer-lives, .equation-explorer-timer {
+    font-size: 20px;
+    color: #004466;
+}

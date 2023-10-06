@@ -48,7 +48,17 @@ function checkAnswer() {
     } else {
         alert('Try again!');
     }
+    let answerbox = document.getElementById('answer');
+    answerbox.value = '';
+    answerbox.focus();
 }
+
+// Event listener for the Enter key
+document.getElementById('answer').addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {  // 13 is the key code for Enter
+        checkAnswer();
+    }
+});
 
 function resetGame() {
     currentPosition = 0;
