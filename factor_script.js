@@ -27,7 +27,17 @@ function checkFactors() {
             generateNumber();
         }
     }
+    let inputBox = document.getElementById('factorFinderInput');
+    inputBox.value = '';
+    inputBox.focus();
 }
+
+// Event listener for the Enter key
+document.getElementById('factorFinderInput').addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {  // 13 is the key code for Enter
+        checkFactors();
+    }
+});
 
 function getFactors(number) {
     let factors = [];
