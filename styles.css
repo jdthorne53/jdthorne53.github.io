@@ -481,7 +481,7 @@ p {
 }
 
 .game-tile:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     text-decoration: none; /* Removes any underline on hover */
 }
 
